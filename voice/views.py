@@ -51,7 +51,7 @@ def index(request):
 
         bot = Bot()
         bot.login(username = "voiceofws", password = "Kim042800*", is_threaded=True)
-        bot.upload_photo(fileName+".jpg", caption = "If you think this post is inappropriate, please comment '!report' (5 reports will automatically take down this post)")
+        bot.upload_photo(fileName+".jpg", caption = fileName + " - If you think this post is inappropriate, please comment '!report' (5 reports will automatically take down this post)")
 
         return render(request, "voice/index.html")
     else:
