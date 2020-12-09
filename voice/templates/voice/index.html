@@ -11,7 +11,7 @@ Voice of WS
         <div class="card">
             <div class="card-body">
                 <h1 class="f1">Voice of WS</h1>
-                <p class="f2">This is a fully automated site. It is completely anonymous. What you write here will be directly posted to @voiceofws Insta page.</p>
+                <p class="f2">This is a fully automated site. It is completely anonymous. What you write here (in English) will be directly posted to @voiceofws Insta page.</p>
                 <p class="f2">**Please follow the Instagram Community Guideline - <a href="https://www.facebook.com/help/instagram/477434105621119/">Here</a></p>
                 {% if message %}
                 <div class="alert alert-danger" role="alert">
@@ -23,19 +23,22 @@ Voice of WS
                   <div class="form-group">
                     <textarea class="form-control" id="content" rows="5" name="content" maxlength="400"></textarea>
                   </div>
+                  <div class="form-group">
+                    <label for="font">Select a font</label>
+                    <select class="form-control" id="font" name="fontInt">
+                        <option class="f2" value="1">Default (Raleway)</option>
+                        <option class="f3" value="2">AVENY</option>
+                        <option class="f4" value="3">Roboto Black</option>
+                        <option class="f5" value="4">Amatic</option>
+                        <option class="f6" value="5">Special Elite</option>
+                        <option class="f7" value="6">Great Vibes</option>
+                    </select>
+                  </div>
                   <button type="submit" class="btn btn-primary" onclick="warning()">Submit</button>
                 </form>
-                <div class="alert alert-warning" role="alert" id="warning" style="display:none;">
-                  Please wait! Do not refresh the page.
-                </div>
                 <small>**Inappropriate posts might be taken down</small>
             </div>
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    function warning() {
-      $("#warning").show();
-    }
-</script>
 {% endblock %}

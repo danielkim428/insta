@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@font-face {
+  font-family: Aveny;
+  src: url('Aveny T WEB.ttf');
+}
 
 .f1 {
     font-family: 'Roboto Slab', serif;
 }
 .f2 {
     font-family: 'Raleway', sans-serif;
+}
+.f3 {
+    font-family: Aveny;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.f4 {
+    font-family: 'Roboto', sans-serif;
+}
+.f5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 23px;
+}
+.f6 {
+    font-family: 'Special Elite', cursive;
+}
+.f7 {
+    font-family: 'Great Vibes', cursive;
 }

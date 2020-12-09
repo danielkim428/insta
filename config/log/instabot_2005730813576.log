@@ -1,0 +1,20 @@
+2020-12-09 18:15:40,036 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-12-09 18:15:40,037 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\danie\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\instabot\bot\bot.py
+2020-12-09 18:15:40,049 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-12-09 18:15:40,049 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-12-09 18:15:40,049 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\danie\Projects\insta/config/voiceofws_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=c497c0df-f70d-4de2-b0f8-eade43c03b8d
+- uuid=63bacc43-e7a4-43fb-afce-d6c6ef72882e
+- client_session_id=6dd04aad-eacd-4e1d-a39e-cd12222f3f60
+- device_id=android-2d77bd164e2c612b
+2020-12-09 18:15:40,050 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-12-09 18:15:40,587 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-12-09 18:15:40,940 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-12-09 18:15:40,941 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'voiceofws'!
+2020-12-09 18:15:40,941 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\danie\Projects\insta/config/voiceofws.checkpoint
+2020-12-09 18:16:01,191 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-12-09 18:16:01,625 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-12-09 18:16:01,626 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'post 11.jpg' is uploaded.
+2020-12-09 18:16:25,407 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\danie\Projects\insta/config/voiceofws.checkpoint
+2020-12-09 18:16:25,407 - instabot version: 0.117.0 (bot) - INFO - Total requests: 71
