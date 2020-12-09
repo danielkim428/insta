@@ -34,6 +34,6 @@ for line in textwrap.wrap(text, width=35):
 
 img.save(fileName+".jpg")
 
-#bot = Bot()
-#bot.login(username = "voiceofws", password = "Kim042800*")
-#bot.upload_photo(fileName+".jpg", caption = fileName)
+bot = Bot()
+bot.login(username = "voiceofws", password = "Kim042800*")
+bot.upload_photo(fileName+".jpg", caption = fileName)
