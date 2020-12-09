@@ -25,12 +25,13 @@ SECRET_KEY = 'n3)k&)fr!9%m#34scftb*kvv!-#e78*cvs-k-d*-&y&shnr65^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost','voiceofws.ga','128.199.139.174']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'voice',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -118,3 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')

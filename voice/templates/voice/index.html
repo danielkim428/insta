@@ -1,0 +1,33 @@
+{% extends "voice/base.html" %}
+{% load static %}
+
+{% block title %}
+Voice of WS
+{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col-12 col-lg-6 mx-auto mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="f1">Voice of WS</h1>
+                <p class="f2">This is a fully automated site. It is completely anonymous. What you write here will be directly posted to @voiceofws Insta page.</p>
+                <p class="f2">**Please follow the Instagram Community Guideline - <a href="https://www.facebook.com/help/instagram/477434105621119/">Here</a></p>
+                {% if message %}
+                <div class="alert alert-danger" role="alert">
+                  {{ message }}
+                </div>
+                {% endif %}
+                <form action="{% url 'index' %}" method="POST">
+                    {% csrf_token %}
+                  <div class="form-group">
+                    <textarea class="form-control" id="content" rows="5" name="content" maxlength="200"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <small>**Inappropriate posts might be taken down</small>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+2020-12-09 04:32:00,256 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-12-09 04:32:00,257 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\danie\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\instabot\bot\bot.py
+2020-12-09 04:32:00,265 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-12-09 04:32:00,266 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-12-09 04:32:00,266 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\danie\Projects\insta/config/voiceofws_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=c497c0df-f70d-4de2-b0f8-eade43c03b8d
+- uuid=63bacc43-e7a4-43fb-afce-d6c6ef72882e
+- client_session_id=ab95ae30-6b5a-408a-aa93-48ccddaa192a
+- device_id=android-2d77bd164e2c612b
+2020-12-09 04:32:00,266 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-12-09 04:32:00,929 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-12-09 04:32:01,211 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-12-09 04:32:01,212 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'voiceofws'!
+2020-12-09 04:32:01,212 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\danie\Projects\insta/config/voiceofws.checkpoint
+2020-12-09 04:32:24,047 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-12-09 04:32:24,291 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-12-09 04:32:24,291 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'post 4.jpg' is uploaded.
